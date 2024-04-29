@@ -15,6 +15,12 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: ["pastel"],
+  },
+  plugins: [
+    require("daisyui"),
+    require('@tailwindcss/forms')
+   ],
 };
 export default config;
