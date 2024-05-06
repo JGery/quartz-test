@@ -9,7 +9,7 @@ export default async function Home() {
   const prods = await fetchProducts();
 
   return (
-    <main className="flex-- min-h-screen flex-col--- items-center-- justify-between--- p-24---">
+    <main className="min-h-screen">
       <Navbar isMain />
 
       <div className="grid grid-flow-row gap-8 text-neutral-600 py-12 px-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
